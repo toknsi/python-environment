@@ -5,3 +5,5 @@ services:
     volumes:
       - ./src:/var/www/html
     tty: true
+    ports:
+      - '8080:80'
